@@ -14,13 +14,13 @@ class increment
     void calculate()
     {
         if (age<45) {
-            basic = (basic + (.10 * basic));
+            basic = (basic + (10 * basic));
         }
         if (age>45 && age<56) {
             basic = (basic + (.15 * basic));
         }
         if (age>=56) {
-            basic = (basic + (.20));
+            basic = (basic + (.20 * basic));
         }
     }
 
